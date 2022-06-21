@@ -22,7 +22,7 @@ Part of a web browser written in Basic09, poking at the bare metal of CoNect's '
 	gateway 192.168.0.1
 	netmask 255.255.255.0
 	macaddr 5C:26:0A:01:02:03
-	phyaddr $FF6B
+	phyaddr $FF68
 
 If you haven't merged All The Things into the gfx2 module, consider it. 
 
