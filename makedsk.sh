@@ -14,7 +14,7 @@ os9 makdir "${DSK},WWW"
 os9 makdir "${DSK},SYS"
 
 # CCIO
-for i in bufmath.b09  getBookmark.b09  initeth.b09  www.b09  getdns.b09  SetMouse.b09  GetMouse.b09  stateth.b09  drawTable.b09  gotoHost.b09  putBookmark.b09; do
+for i in bufmath.b09  drawTable.b09  getBookmark.b09  initeth.b09  www.b09  getdns.b09  stateth.b09  drawTable.b09  gotoHost.b09  putBookmark.b09; do
 	os9 copy "${i}" "${DSK},WWW/${i}" -l -r
 done
 
